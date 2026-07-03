@@ -67,8 +67,8 @@ Permutation Importance is applied to determine the top 15 features that have the
 ```text
 Model Performance
 
-RMSE : 0.235
-R² Score : 0.912
+RMSE : 0.223
+R² Score : 0.952
 
 Top 15 Important Features
 -------------------------
@@ -93,7 +93,7 @@ pip install pandas numpy scikit-learn
 4. Execute the program.
 
 ```bash
-python Restaurant_Ratings.py
+Restaurant_Ratings_Arti.py
 ```
 
 ---
