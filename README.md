@@ -65,10 +65,29 @@ Permutation Importance is applied to determine the top 15 features that have the
 ## 📈 Example Output
 
 ```text
-Model Performance
+Model Performance on Test Set:
+ - RMSE: 0.275
+ - R² Score: 0.967
 
-RMSE : 0.223
-R² Score : 0.952
+Running permutation importance... (could be slow)
+
+Top 15 Most Influential Features:
+Votes                   1.865547
+Restaurant ID           0.086416
+Latitude                0.005574
+Restaurant Name         0.004521
+Average Cost for two    0.003914
+City                    0.003597
+Country Code            0.003453
+Has Online delivery     0.002793
+Currency                0.002695
+Cuisines                0.002560
+Longitude               0.002049
+Price range             0.001550
+Locality Verbose        0.000895
+Locality                0.000354
+Address                 0.000000
+dtype: float64
 
 Top 15 Important Features
 -------------------------
